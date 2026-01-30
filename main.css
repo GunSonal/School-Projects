@@ -1,0 +1,37 @@
+/* defines body style */
+body {
+    /* defines body background color */
+    background-color: black;
+    /* defines body text color */
+    color: blue;
+}
+/* define nav style */
+nav {
+    /* defines nav height */
+    height: 600px;
+    /* defines nav width */
+    width: 200px;
+    /* defines nav float location */
+    float: left;
+    /* defines nav padding size */
+    padding: 5px;
+    /* defines nav line height */
+    line-height: 30px;
+}
+/* defines footer style */
+footer {
+    /* defines footer text alignment */
+    text-align: center;
+    /* defines footer right margin size */
+    margin-right: 200px;
+}
+/* defines memeImage style */
+#memeImage {
+    /* defines right margin size for image */
+    margin-right: 200px;
+}
+/* defines h1 style */
+h1 {
+    /* defines where the text in the header will be placed on the page */
+    text-align: center;
+}
