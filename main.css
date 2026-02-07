@@ -35,3 +35,6 @@ h1 {
     /* defines where the text in the header will be placed on the page */
     text-align: center;
 }
+h3 {
+    margin-left: 700px; 
+}

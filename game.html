@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- RULES FOR ASSIGNMENT
+ MUST HAVES:
+    Random number
+    Math
+    Conditionals
+    Use .innerHTML or .textContent
+    A function that takes a parameter and uses the input value and outputs results
+ MUST NOT HAVES:
+    Event listeners
+    Unused code
+    JS Functions in the .html page
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to BlackJack</title>
+    <script src="code.js"></script>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="Heading">Welcome to Blackjack</h1>
+        <p>Money: $<span id="money">100</span></p>
+        <p>Enter a Number for your bet : </p>
+        <input type="number" id="betInput">
+        <br>
+        <button onclick="playGame();">Click to Begin</button>
+        <button onclick="hit();">Hit</button>
+        <button onclick="stand()">Stand</button>
+    </header>
+    <h3><h3>In Blackjack, everyone plays against the dealer. Players receive all cards face up, and the dealer’s first card is face up and the second is face down. The object of the game is to get closer to 21 than the dealer without going over 21. If a hand goes over 21, it is called a “bust” or “break,” and the wager is lost. In 21, Jacks, Queens, Kings, and 10s count as 10. An Ace may be played as a one or an 11. All other cards are played at face value. When you receive your first two cards, you may either “stand” or “hit.” When you “stand,” it means you feel you are close enough to 21 and no longer wish any additional cards, indicated by waving off with your hand. If you wish to receive another card or “hit,” tap or scratch the table behind your wager with your finger.  In either situation, you will never touch the cards; everything is communicated using hand signals. You may draw as many cards as you want until you are close to 21 or until you “bust.” If you are closer to 21 than the dealer, you win and are paid an amount equal to your original wager. If your hand is less than the dealer’s, you lose. If the dealer’s hand “busts” or “breaks,” you win as well. Ties are a standoff or “push,” and your bet remains on the table.</h3></h3>
+    <p id="output"></p>
+</body>
+</html>
