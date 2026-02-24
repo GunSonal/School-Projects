@@ -1,0 +1,46 @@
+<!-- Meier Johnson -->
+<!-- PROGRAM RULES -->
+ <!-- 
+Separate Text Box for First and Last name
+Check if they are >20 characters and end program if they are (With a warning)
+A text box for zip code
+Check that zip is only 5 digits and end if it is not end program
+If all inputs are valid, show a secret message from the website
+Have at least 1 creative element
+Must use textContent or innerHTML
+No actionListeners
+No JS functions in HTML
+Only one submit button
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+    <script src="strings.js"></script>
+    <link rel="stylesheet" href = "main.css">
+    <head>
+        <title>Input Validation</title>
+    </head>
+    <body>
+        <header>
+            <h1>Input Validation</h1>
+        </header>
+        <main>
+            <div id="divMessage"></div>
+            <form>
+                <div>
+                    <label for="txtFirstName">First Name: </label>
+                    <input type="text" id="txtFirstName">
+                </div>
+                <div>
+                    <label for="txtLastName">Last Name: </label>
+                    <input type="text" id="txtLastName">
+                </div>
+                <div>
+                    <label for="ZIPcode">Zip Code: </label>
+                    <input type="text" id="ZIPcode">
+                </div>
+                <button type="button" onclick="validate();">Submit</button>
+            </form>
+        </main>
+    </body>
+ </html>
