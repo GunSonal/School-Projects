@@ -28,13 +28,11 @@ footer {
 /* defines memeImage style */
 #memeImage {
     /* defines right margin size for image */
+    position: absolute;
     margin-right: 200px;
 }
 /* defines h1 style */
 h1 {
     /* defines where the text in the header will be placed on the page */
     text-align: center;
-}
-h3 {
-    margin-left: 700px; 
 }
