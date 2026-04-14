@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    color: red;
+}
+#allTogetherimg {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+h1{
+    text-align: center;
+}
+.prompt-box { display: none; margin-top: 1rem; padding: 1rem; border: 1px solid #ccc; }
+    .prompt-box.visible { display: block; }
+    .btn { margin-right: 0.5rem; padding: 0.4rem 0.8rem; cursor: pointer; }
+    .btn.yes { background: green; color: white; border: none; }
+    .btn.no  { background: red;   color: white; border: none; }
+    .history-item { font-size: 0.9rem; color: #555; }
