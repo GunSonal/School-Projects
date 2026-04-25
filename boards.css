@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: white;
+}
+nav {
+    border-style: groove;
+    background-color: blue;
+}
+a:link {
+    color: darkgreen;
+}
+a:visited{
+    color: red;
+}
